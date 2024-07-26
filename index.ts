@@ -25,7 +25,6 @@ namespace AlarmClockApp {
     }
     /**
      * @purpose snooze an alarm maximum of 3 times at an interval of 5 minutes each
-     * @return void
      */
     snooze(): void {
       if (this.snoozeCount < 3) {
